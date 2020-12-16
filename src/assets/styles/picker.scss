@@ -1,0 +1,50 @@
+body{
+  #app{
+    .picker{
+      height: 440px;
+      .picker-title{
+        height: 88px;
+        span {
+          position: absolute;
+          height: 88px;
+          line-height: 88px;
+          padding: 0 24px;
+          font-size: 28px;
+        }
+        h4  {
+          margin: 0;
+          font-size: 32px;
+          font-weight: 400;
+          height: 88px;
+          line-height: 88px;
+          text-align: center;
+        }
+      }
+      .picker-panel {
+        position: relative;
+        height: 452px;
+        padding: 48px 24px;
+        box-sizing: border-box;
+      }
+      .picker-wheel-wrapper .wheel-scroll .wheel-item {
+        height: 68px;
+        line-height: 68px;
+        font-size: 34px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #333;
+      }
+      .picker-panel .picker-mask-bottom{
+          bottom:128px;
+      }
+      .picker-panel .picker-mask-top{
+        top:-24px;
+      }
+      .picker-panel .picker-mask-bottom,.picker-panel .picker-mask-top{
+        height: 144px;
+      }
+    }
+  }
+}
