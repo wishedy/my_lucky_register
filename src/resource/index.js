@@ -1,9 +1,9 @@
 import { json2Query } from '@/libs/utils'
 const Resource = require('./create-api')
 const { api } = Resource
-export function getSignature (params) {
+export function register (params) {
   console.log(params)
-  return api.post('/api/wechat/getSignature', params)
+  return api.post('/crm/admin/register', params)
 }
 export function getOrderList (params) {
   console.log(params)
